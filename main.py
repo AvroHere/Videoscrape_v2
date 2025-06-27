@@ -13,10 +13,10 @@ from telegram.ext import Application, MessageHandler, CommandHandler, filters, C
 from telegram.constants import ParseMode
 
 # Configuration
-BOT_TOKEN = "7563249498:AAFr2iP35k8bBjMk-hchADIOn7Dv4SoPsVs"
-ADMIN_IDS = {2030264076, 8139996030}
-TARGET_GROUP_ID = -1002602630495
-MAX_PART_MB = 45
+BOT_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ADMIN_IDS = {xxxxxxxxxxxxx, xxxxxxxxxx}
+TARGET_GROUP_ID = xxxxxxxxxxxxx
+MAX_PART_MB = 43
 SPLIT_THRESHOLD = 50 * 1024 * 1024
 SITE_LOG_FILE = "sitelog.txt"
 
