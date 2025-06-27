@@ -187,7 +187,7 @@ If you liked this project, don't forget to ⭐ **star the repo** and spread the 
 
 ## 📦 Requirements
 
-```txt
+```
 python-telegram-bot>=20.0
 yt-dlp>=2024.4.9
 aria2p>=0.11.4
