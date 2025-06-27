@@ -50,3 +50,107 @@ A powerful Telegram bot for downloading and splitting videos from various websit
 ```bash
 python main.py
 
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AvroHere/Telegram-Video-Downloader-Bot.git
+cd Telegram-Video-Downloader-Bot
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install ffmpeg (required for video processing)
+# On Ubuntu/Debian
+sudo apt-get install ffmpeg
+# On macOS
+brew install ffmpeg
+# On Windows: Download from https://ffmpeg.org/download.html
+
+# Set up your BOT_TOKEN in main.py
+# Replace "7563249498:AAFr2iP35k8bBjMk-hchADIOn7Dv4SoPsVs" with your token
+
+# Run the bot
+python main.py
+```
+
+📋 Installation Steps
+Clone the Repo 🐑: Use git clone to get the code.
+Set Up Virtual Env 🛠️: Create and activate a Python virtual environment.
+Install Dependencies 📦: Run pip install -r requirements.txt.
+Install FFmpeg 🎬: Ensure ffmpeg and ffprobe are installed.
+Configure Token 🔑: Add your Telegram Bot Token to main.py.
+Run the Bot 🚀: Start the bot with python main.py.
+
+
+```🧠 Usage
+## 📚 Usage
+
+> **How to Use the Bot**  
+> Send URLs or a text file with URLs to the bot. Use admin commands to manage downloads, captions, and delays.
+
+### 📋 Usage Methods
+- **Send URLs** 🔗: Paste video URLs directly in the chat.
+- **Upload Text File** 📄: Send a `.txt` file with URLs (one per line).
+- **Admin Commands** 🛠️:
+  - `/start` or `/menu`: Show command menu.
+  - `/cap N text`: Add caption to next N videos.
+  - `/capedit text`: Change default full video caption.
+  - `/delay N`: Set delay between links (seconds).
+  - `/slow N`: Set delay between parts (0-30s).
+  - `/cancel`: Stop current download.
+  - `/clean`: Cancel and clear queue.
+  - `/skip N`: Skip N links.
+  - `/remain`: Show remaining links.
+  - `/support`: Show supported sites count.
+  - `/support_file`: Get list of supported sites.
+
+### 📋 Usage Steps
+1. **Start Bot** 🚀: Ensure the bot is running (`python main.py`).
+2. **Add Admin IDs** 🔒: Update `ADMIN_IDS` in `main.py` with your Telegram ID.
+3. **Send Links** 🔗: Share video URLs or a text file with URLs.
+4. **Use Commands** 🛠️: Control the bot with admin commands (e.g., `/cap 3 MyCaption`).
+5. **Monitor Progress** 📊: Check queue status with `/remain` or `/support`.
+```
+
+## 📂 Folder Structure
+```
+Telegram-Video-Downloader-Bot/
+├── LICENSE.txt         # MIT License file
+├── README.md           # Project documentation
+├── main.py             # Main bot script
+├── requirements.txt    # Python dependencies
+└── sitelog.txt         # List of supported sites (auto-generated)
+```
+## 🛠️ Built With
+
+- **External Libraries**:
+  - `yt-dlp`: Video downloading from multiple websites.
+  - `python-telegram-bot`: Telegram API interaction.
+  - `ffmpeg` (system): Video processing and splitting.
+
+- **Standard Libraries**:
+  - `os`: File and directory operations.
+  - `sys`: System-specific parameters.
+  - `asyncio`: Asynchronous operations.
+  - `logging`: Logging bot activities.
+  - `tempfile`: Temporary file management.
+  - `subprocess`: Running FFmpeg commands.
+  - `shutil`: File and directory cleanup.
+  - `urllib.parse`: URL parsing.
+```
+## 🚀 Roadmap
+
+- **🎨 Custom Thumbnail Styles**: Add options for thumbnail customization.
+- **📈 Advanced Queue UI**: Display queue progress in a Telegram inline keyboard.
+- **🔗 Batch URL Validation**: Validate URLs before adding to queue.
+- **🔔 Notification System**: Notify admins of download failures.
+- **📦 Docker Support**: Add Dockerfile for easy deployment.
+- **🔍 Log Analysis**: Generate reports from bot activity logs.
+
+
+
