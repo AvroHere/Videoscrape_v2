@@ -151,7 +151,7 @@ Telegram-Video-Downloader-Bot/
 - **🔔 Notification System**: Notify admins of download failures.
 - **📦 Docker Support**: Add Dockerfile for easy deployment.
 - **🔍 Log Analysis**: Generate reports from bot activity logs.
-
+```
 
 ## ❓ FAQ
 
@@ -187,6 +187,7 @@ If you liked this project, don't forget to ⭐ **star the repo** and spread the 
 
 ## 📦 Requirements
 
+```
 ```
 python-telegram-bot>=20.0
 yt-dlp>=2024.4.9
