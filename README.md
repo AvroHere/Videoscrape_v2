@@ -10,7 +10,7 @@ A powerful Telegram bot for downloading and splitting videos from various websit
 
 ### 📥 Download & Processing  
 - 🌐 **Multi-Site Support**: Works with YouTube, Twitter, TikTok, and 1000+ sites via `yt-dlp`  
-- ✂️ **Smart Splitting**: Automatically splits videos >50MB into Telegram-friendly 45MB parts  
+- ✂️ **Smart Splitting**: Automatically splits videos >50MB into Telegram-friendly 43MB parts  
 - ⚡ **Dual Download Modes**: Uses `aria2c` for speed, falls back to native yt-dlp  
 - 🖼️ **Thumbnail Generation**: Extracts cover images for videos/parts  
 
