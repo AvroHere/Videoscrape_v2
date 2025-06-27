@@ -153,4 +153,43 @@ Telegram-Video-Downloader-Bot/
 - **🔍 Log Analysis**: Generate reports from bot activity logs.
 
 
+## ❓ FAQ
+
+**Q: Why does the bot fail to download some videos?**  
+A: Ensure the URL is supported by `yt-dlp`. Check supported sites with `/support_file`. Some sites may require additional authentication or have restrictions.
+
+**Q: How do I get my Telegram Bot Token?**  
+A: Create a bot via `@BotFather` on Telegram. Follow the instructions to receive a token, then add it to `main.py`.
+
+## 📄 License
+
+MIT License
+
+Copyright (c) 2025 AvroHere
+
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the “Software”), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software...
+
+[See full license text in Licence.txt]
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Avro**
+
+- 🔗 GitHub: [AvroHere](https://github.com/AvroHere)
+
+> "Code like there's no bug, deploy like it's the last day." 🚀
+
+If you liked this project, don't forget to ⭐ **star the repo** and spread the love!
+
+## 📦 Requirements
+
+```txt
+python-telegram-bot>=20.0
+yt-dlp>=2024.4.9
+aria2p>=0.11.4
+```
 
