@@ -181,7 +181,7 @@ Made with ❤️ by **Avro**
 
 - 🔗 GitHub: [AvroHere](https://github.com/AvroHere)
 
-> "Code like there's no bug, deploy like it's the last day." 🚀
+> "Code like there's no bug, deploy ." 🚀
 
 If you liked this project, don't forget to ⭐ **star the repo** and spread the love!
 
